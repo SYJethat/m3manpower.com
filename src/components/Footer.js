@@ -91,10 +91,10 @@ const Footer = () => {
                 <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start text-sm gap-2 sm:gap-4 text-center">
   
   <a
-    href="mailto:info@migrantmagnetmanpower.com"
+    href="mailto:migrantmagnetmanpower@gmail.com"
     className="text-white font-semibold hover:underline break-all"
   >
-    info@migrantmagnetmanpower.com
+    migrantmagnetmanpower@gmail.com
   </a>
 </div>
 
