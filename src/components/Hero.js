@@ -1,30 +1,16 @@
 import React from 'react';
-import Video from '../assests/video.mp4'
 
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Animated Background Video */}
+      {/* Animated Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/80 via-blue-900/80 to-teal-900/80 z-10"></div>
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src={Video} type="video/mp4" />
-          {/* Fallback animated background */}
-        </video>
-        
-        {/* Animated shapes fallback */}
-        {/* <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-teal-500">
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-teal-500">
           <div className="absolute top-20 left-10 w-32 h-32 bg-white/10 rounded-full animate-pulse"></div>
           <div className="absolute top-40 right-20 w-24 h-24 bg-white/5 rounded-full animate-bounce"></div>
           <div className="absolute bottom-32 left-1/4 w-40 h-40 bg-white/5 rounded-full animate-pulse delay-1000"></div>
           <div className="absolute bottom-20 right-1/3 w-28 h-28 bg-white/10 rounded-full animate-bounce delay-500"></div>
-        </div> */}
+        </div>
       </div>
 
       {/* Content */}
