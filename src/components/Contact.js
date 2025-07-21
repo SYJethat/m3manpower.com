@@ -220,6 +220,7 @@ const Contact = () => {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
       className="rounded-2xl w-full h-full border-0"
+      title="M3 Manpower Office Location - International Tech Park Bangalore"
     ></iframe>
   </div>
 </div>
